@@ -1,0 +1,135 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.2rem;
+}
+
+.table-container {
+  margin: 3rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.table-container .form-wrapper {
+  position: relative;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+  margin-bottom: 0.7rem;
+  height: 2.1rem;
+}
+
+.table-container .form-wrapper .btn {
+  margin: 0;
+}
+
+.table-container table th {
+  background-color: #009999;
+  color: white;
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+
+.table-container table tr {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.5fr 1fr 2.3fr;
+      grid-template-columns: 1.5fr 1fr 2.3fr;
+}
+
+.table-container table tr:nth-child(2n + 1) {
+  background-color: #eee;
+}
+
+.table-container table tr td {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.table-container .btn {
+  font-size: 1rem;
+  width: 7rem;
+  padding: 0.4rem 1rem;
+  margin: 0.5rem 0.25rem 0.5rem 0.25rem;
+  color: white;
+  background-color: #8081d6;
+  border-radius: 0.25rem;
+}
+
+.table-container .btn-danger {
+  background-color: #b14b4b;
+}
+
+.table-container .btn-info {
+  background-color: #8081d6;
+}
+
+.table-container .btn:disabled {
+  opacity: 0.3;
+}
+
+.table-container input {
+  background-color: #c0baba;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.error-msg {
+  position: absolute;
+  right: -8rem;
+  bottom: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: red;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.enabled {
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.result {
+  max-width: 80px;
+}

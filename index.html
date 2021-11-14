@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searchable Table</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="table-container">
+        <div class="form-wrapper">
+            <select id="test-name">
+                <option>---</option>
+                <option>Flash point</option>
+                <option>Water</option>
+                <option>Distillation</option>
+            </select>
+            <input type="text" id="test-result" placeholder="Result Number">
+            <button class="btn" id="create-test">Add test</button>
+            <div class="error-msg hidden">Type test please</div>
+        </div>
+
+        <table class="table" cellspacing='0'>
+            <thead>
+                <tr>
+                    <th scope='col'>Test</th>
+                    <th scope='col'>Result</th>
+                    <th scope='col'>Commands</th>
+                </tr>
+            </thead>
+
+            <tbody id='tests-table'>
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
