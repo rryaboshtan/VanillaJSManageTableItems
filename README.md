@@ -1,21 +1,17 @@
 ## Used technologies
     - Vanilla JS
-    - OOP
-    - JS Custom elements
-    - JSDoc
+  
+## [Demo version](https://rryaboshtan.github.io/VanillaJSManageTableItems/)
 
 ### Screenshots
 ![](screenshots/screenshot1.png)
-![](screenshots/screenshot2.png)
-
- A Vanilla.js SPA for a presentation html murkuped slides.
 
  ## Installation instruction
     You must clone the repo:
-     git clone https://github.com/rryaboshtan/PresentationTool.git
+     git clone https://github.com/rryaboshtan/VanillaJSManageTableItems.git
 
-     And input in the command line
-      npm i            
+     And input in the VSCode command line
+      cd VanillaJSManageTableItems           
 
     After that you must install http-server globally
      npm i -g http-server
